@@ -1,0 +1,7 @@
+{
+    "name": "250-endless",
+    "rpm": 250,
+    "turns": 0,
+    "direction": "cw",
+    "twist_mode": false
+}

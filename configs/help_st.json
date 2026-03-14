@@ -1,0 +1,103 @@
+{
+  "bedienung": {
+    "display_name": {
+      "DE": "Wie benutze ich den Super Twister 3001",
+      "EN": "How to use the Super Twister 3001"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1 Bedienelemente der ersten Reihe",
+          "EN": "1.1 Controls in the first row"
+        },
+        "desc": {
+          "DE": "In der ersten Reihe befinden sich ein Plus-Button (1) zum Erhöhen der Motordrehzahl, die Anzeige der gewünschten Motordrehzahl (2), der Motor-Blockierstatus (3), ein Fortschrittsbalken für die aktuelle Drehzahl bzw. die Stellung des Gaspedals (4), ein weiterer Plus-Button (5) zum Einstellen der gewünschten Anzahl an Umdrehungen, die Anzeige der eingestellten Umdrehungen (6), der Exit-Button (7) zum Verlassen des SuperTwisters sowie der Sprachwechsel-Button (8) zum Umschalten der Sprache.",
+          "EN": "In the first row you will find a plus button (1) to increase the motor speed, the display of the desired motor speed (2), the motor lock status (3), a progress bar showing the current speed or accelerator pedal position (4), another plus button (5) for setting the desired number of turns, the display of the configured number of turns (6), the exit button (7) to close the Super Twister application, and the language button (8) to switch the interface language."
+        },
+        "image": "first_row.jpg"
+      },
+      {
+        "title": {
+          "DE": "1.2 Bedienelemente der zweiten Reihe",
+          "EN": "1.2 Controls in the second row"
+        },
+        "desc": {
+          "DE": "In der zweiten Reihe sehen Sie einen Minus-Button (9) zum Verringern der Motordrehzahl, die Anzeige der aktuellen Motordrehzahl (10), den Twister-Status mit Informationen zur aktuellen STAGE sowie zum SERVICE- oder OPERATOR-Modus (11), einen Minus-Button (12) zum Reduzieren der gewünschten Anzahl an Umdrehungen, die Anzeige der bereits ausgeführten Umdrehungen (13), den Load-Configuration-Button (14) zum Laden einer gespeicherten Konfiguration, den Namen der aktuell ausgewählten Konfiguration mit der Möglichkeit, diese durch Antippen wieder zu übernehmen (15), sowie den Save-Configuration-Button (16) zum Speichern der aktuellen Einstellungen.",
+          "EN": "In the second row you will find a minus button (9) to decrease the motor speed, the display of the current motor speed (10), the Twister status showing the current stage and whether the system is in SERVICE or OPERATOR mode (11), a minus button (12) to reduce the desired number of turns, the display of completed turns (13), the Load Configuration button (14) for loading a saved configuration, the name of the currently selected configuration which can be reapplied by tapping it (15), and the Save Configuration button (16) for saving the current settings."
+        },
+        "image": "second_row.jpg"
+      },
+      {
+        "title": {
+          "DE": "1.3 Bedienelemente der dritten Reihe",
+          "EN": "1.3 Controls in the third row"
+        },
+        "desc": {
+          "DE": "In der dritten Reihe befinden sich der Haupt-Button START (17) zum Starten des Twist-Vorgangs, der Zentrier-Button (18), mit dem die Sehnenaufnahme wieder nach oben ausgerichtet werden kann, sowie der STOP-Button (19) zum sofortigen Anhalten des Twist-Vorgangs.",
+          "EN": "This row contains the main START button (17) to begin the twisting process, the centering button (18) which aligns the string holder to the top position, and the STOP button (19) to immediately stop the twisting process."
+        },
+        "image": "third_row.jpg"
+      },
+      {
+        "title": {
+          "DE": "1.4 Bedienelemente der vierten Reihe",
+          "EN": "1.4 Controls in the fourth row"
+        },
+        "desc": {
+          "DE": "Der Wizard (20) unterstützt Sie mit einer Schritt-für-Schritt-Anleitung durch den gesamten Twisting-Prozess. Er zeigt die aktuelle Phase an und gibt hilfreiche Hinweise zum jeweiligen Arbeitsschritt. Darunter befindet sich der Hilfe-Button (21), der diese Bedienhilfe öffnet. Zusätzlich stehen Buttons zur Auswahl der Drehrichtung im Uhrzeigersinn (CW) (22), der Button für den Serving- oder Twist-Modus (23) sowie der Button für die Drehrichtung gegen den Uhrzeigersinn (CCW) (24) zur Verfügung. Außerdem gibt es zwei Buttons zum Freischalten des Service-Menüs (25) sowie den Button für die Service-Einstellungen (26).",
+          "EN": "The wizard (20) guides you step by step through the entire twisting process. It shows the current stage and provides helpful instructions for each step. Below it is the help button (21) which opens this help guide. Additional buttons (22) allow you to select the rotation direction clockwise (CW), the serving or twist mode button (23), and the rotation direction counter-clockwise (CCW) (24). Two additional buttons are used to unlock the service menu (25) and to open the service settings (26)."
+        },
+        "image": "fourth_row.jpg"
+      },
+      {
+        "title": {
+          "DE": "1.5 Weitere Hinweise",
+          "EN": "1.5 Additional Notes"
+        },
+        "desc": {
+          "DE": "Der Super Twister 3001 ist ein präzises Werkzeug zum Herstellen von Bogensehnen. Lesen Sie die Bedienhinweise sorgfältig und befolgen Sie alle Anweisungen, um optimale Ergebnisse und einen sicheren Betrieb zu gewährleisten. Bei Fragen oder Unsicherheiten wenden Sie sich bitte an unseren Kundenservice.",
+          "EN": "The Super Twister 3001 is a precision tool for manufacturing archery bow strings. Please read the operating instructions carefully and follow all recommendations to ensure safe operation and optimal results. If you have any questions, please contact our customer support."
+        },
+        "image": "superTwister.jpg"
+      }
+    ]
+  },
+  "einstellungen": {
+    "display_name": {
+      "DE": "Hilfe zu den Einstellungen",
+      "EN": "Settings Help"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1 Servicebereich",
+          "EN": "1.1 Service Area"
+        },
+        "desc": {
+          "DE": "Durch Eingabe einer PIN werden zusätzliche Service-Buttons freigeschaltet. In diesem Bereich können Standardparameter angepasst und verändert werden. Die vorgenommenen Einstellungen können dauerhaft gespeichert werden und stehen beim nächsten Start wieder zur Verfügung.",
+          "EN": "Entering a PIN unlocks additional service buttons. In this area, default parameters can be adjusted and customized. The changes can be saved permanently and will be available the next time the application is started."
+        }
+      },
+      {
+        "title": {
+          "DE": "1.2 Sicherheitsbereich aktivieren",
+          "EN": "1.2 Activate Security Area"
+        },
+        "desc": {
+          "DE": "Durch Eingabe des Codes 12345 gelangen Sie in einen erweiterten Einstellungsbereich mit systemrelevanten Parametern. Änderungen in diesem Bereich sollten nur von erfahrenen Anwendern vorgenommen werden.",
+          "EN": "By entering the code 12345 you can access additional system-related settings. Changes in this section should only be performed by experienced users."
+        }
+      },
+      {
+        "title": {
+          "DE": "1.3 Gaspedal-Kalibrierung aktivieren",
+          "EN": "1.3 Activate Throttle Calibration"
+        },
+        "desc": {
+          "DE": "Durch Eingabe des Codes 12346 wird das Menü zur Kalibrierung des Gaspedals freigeschaltet. Stellen Sie sicher, dass ein Gaspedal angeschlossen ist, bevor Sie diesen Bereich verwenden.",
+          "EN": "Entering the code 12346 unlocks the menu for throttle pedal calibration. Please ensure that a throttle pedal is connected before using this feature."
+        }
+      }
+    ]
+  }
+}

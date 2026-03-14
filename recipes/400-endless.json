@@ -1,0 +1,7 @@
+{
+    "name": "400-endless",
+    "rpm": 400,
+    "turns": 0,
+    "direction": "ccw",
+    "twist_mode": false
+}

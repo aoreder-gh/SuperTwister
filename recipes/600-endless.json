@@ -1,0 +1,7 @@
+{
+    "name": "600-endless",
+    "rpm": 600,
+    "turns": 0,
+    "direction": "cw",
+    "twist_mode": false
+}

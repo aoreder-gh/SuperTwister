@@ -1,0 +1,7 @@
+{
+    "name": "Recurve Eindrehen-70",
+    "rpm": 150,
+    "turns": 40,
+    "direction": "cw",
+    "twist_mode": true
+}

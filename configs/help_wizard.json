@@ -1,0 +1,1489 @@
+
+{
+  "endlossehne": {
+    "display_name": {
+      "DE": "Endlossehne bauen (Recurve)",
+      "EN": "Build endless string (Recurve)"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1.1 Sehnenlänge bestimmen",
+          "EN": "1.1.1 Determine string length"
+        },
+        "desc": {
+          "DE": "Wir beginnen mit dem Bauen der Sehne auf dem Sehnengalgen.\nBestimme die gewünschte Sehnenlänge (Bogenlänge minus 4–6 Zoll).\nStandhöhe beachten.",
+          "EN": "Start by building the string on the string jig.\nDetermine the desired string length (bow length minus 4–6 inches).\nCheck brace height."
+        },
+        "image": "010101.jpg",
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.2 Sehnengalgen einstellen",
+          "EN": "1.1.2 Adjust string jig"
+        },
+        "desc": {
+          "DE": "Stelle den Sehnengalgen auf die benötigte Länge ein.\n70\" = 167,5 cm + 2,5 cm Windungszugabe = 170,0 cm\n68\" = 162,5 cm + 2,5 cm Windungszugabe = 165,0 cm\n66\" = 157,5 cm + 2,5 cm Windungszugabe = 160,0 cm",
+          "EN": "Adjust the string jig to the required length.\n70\" = 167.5 cm + 2.5 cm twist allowance = 170.0 cm\n68\" = 162.5 cm + 2.5 cm twist allowance = 165.0 cm\n66\" = 157.5 cm + 2.5 cm twist allowance = 160.0 cm"
+        },
+        "image": "010102.jpg",
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.3 Anfang fixieren",
+          "EN": "1.1.3 Fix starting point"
+        },
+        "desc": {
+          "DE": "Beginne auf der linken Seite und fixiere die Fadenenden an den Befestigungspunkten der Aufnahmen am Sehnengalgen.",
+          "EN": "Start on the left side and secure the thread ends to the attachment points on the posts of the string jig."
+        },
+        "image": "010103.jpg",
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.4 Stränge wickeln",
+          "EN": "1.1.4 Wind strands"
+        },
+        "desc": {
+          "DE": "Wickle die gewünschte Anzahl an Strängen (z. B. 12–22) gleichmäßig und straff auf den Galgen. Achte darauf, dass die Stränge nicht übereinander liegen, und wickle mit gleichmäßiger Fadenspannung. Du kannst hierfür einen Checker (Bow Square) verwenden, indem du ihn durch das Mittelloch der Garnspule steckst. Nutze den gesamten Wickelbereich.\nWenn eine zweifarbige Sehne gebaut werden soll, müssen die Fadenenden jeweils auf derselben Seite enden, auf der sie begonnen wurden: roter Faden links beginnen und links enden, schwarzer Faden rechts beginnen und rechts enden.",
+          "EN": "Wind the required number of strands (e.g., 12–22) evenly and tightly and under tension onto the jig. Ensure the strands do not overlap and maintain consistent tension. You can use a bow square (checker) by inserting it through the spool hub to help control tension. Use the entire winding area.\nFor a two-colored string, each thread must end on the same side it started: red starts and ends on the left, black starts and ends on the right."
+        },
+        "image": "010104.jpg",
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.5 Stranganzahl prüfen",
+          "EN": "1.1.5 Check strand count"
+        },
+        "desc": {
+          "DE": "Prüfe, ob die gewünschte Anzahl an Strängen aufgelegt wurde. Üblicherweise werden für FastFlight 16–18 Stränge verwendet; für 8125 oder andere moderne Garne sind bis zu 22 Stränge üblich.",
+          "EN": "Verify the correct strand count. For FastFlight, use 16–18 strands; for 8125 or other modern fibers, use up to 22 strands."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.2.1 Mitte markieren",
+          "EN": "1.2.1 Mark center"
+        },
+        "desc": {
+          "DE": "Markiere die Mitte der beiden Endschlaufen.\nEin Filzstift ist hierfür am besten geeignet.\nBitte keinen Permanentmarker (z. B. Edding) verwenden!",
+          "EN": "Mark the center of both loops.\nUse a felt-tip pen for best results.\nDo not use a permanent marker (e.g., Edding)!"
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.2.2 Enden um 90° drehen",
+          "EN": "1.2.2 Rotate ends to 90°"
+        },
+        "desc": {
+          "DE": "Drehe die beiden Enden des Sehnengalgens unter Spannung um 90°.",
+          "EN": "Rotate both jig ends to 90° while keeping tension."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.2.3 Gegenüber beginnen",
+          "EN": "1.2.3 Start opposite side"
+        },
+        "desc": {
+          "DE": "Beginne am gegenüberliegenden Ende des Startpunktes, üblicherweise auf der linken Seite.\nWenn eine zweifarbige Sehne gebaut wird, beginne ebenfalls auf der linken Seite.",
+          "EN": "Start serving on the side opposite the starting point, usually on the left.\nIf you are building a two-colored string, also start on the left side."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.2.4 Markierungen setzen",
+          "EN": "1.2.4 Set loop marks"
+        },
+        "desc": {
+          "DE": "Markiere 4,5 cm rechts und 3,5 cm links der Mitte für die Öhrchenwicklung. Wenn keine Öhrchen gewickelt werden sollen, kannst du diesen Abschnitt bis 1.4.1 überspringen.\nACHTUNG: Die Verwendung des SuperTwisters setzt eine Endenwicklung voraus, um die Stränge unter gleichmäßiger Spannung zu halten.",
+          "EN": "Mark 4.5 cm to the right and 3.5 cm to the left of center for the end-loop serving. If you do not want to serve the loops, you can skip ahead to 1.4.1.\nNOTE: Using the SuperTwister requires an end serving to keep the strands under even tension."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.2.5 Wickelgarn auflegen",
+          "EN": "1.2.5 Insert serving thread"
+        },
+        "desc": {
+          "DE": "Führe das Wickelgarn an der rechten Markierung durch die Sehne und fixiere das Ende mit Finger oder Daumen.",
+          "EN": "Insert the serving thread at the right mark and hold the end in place with your finger or thumb."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.2.6 Wicklung beginnen",
+          "EN": "1.2.6 Start serving"
+        },
+        "desc": {
+          "DE": "Beginne mit dem Wickelgerät rechts und wickle eng nach links. Die Wicklung des Sehnenöhrchens darf nicht zu fest sein.",
+          "EN": "Start with the winder on the right and wrap tightly to the left. Do not make the end-loop serving too tight."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.2.7 Wicklung spannen",
+          "EN": "1.2.7 Tighten serving"
+        },
+        "desc": {
+          "DE": "Nach 1–1,5 cm das offene Ende anziehen und abschneiden. Achte darauf, den richtigen Faden abzuschneiden – nicht den, der zum Wickelgerät führt ;)",
+          "EN": "After 1–1.5 cm, pull the loose end tight and cut the excess. Make sure you cut the correct thread—not the one attached to the winder ;)"
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.2.8 Bis Markierung wickeln",
+          "EN": "1.2.8 Wrap to left mark"
+        },
+        "desc": {
+          "DE": "Wickle bis zur linken Markierung weiter und schließe die Wicklung mit einer Endwicklung ab.",
+          "EN": "Continue wrapping to the left mark and finish the serving with an end wrap."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.1 Zweite Endwicklung",
+          "EN": "1.3.1 Second loop serving"
+        },
+        "desc": {
+          "DE": "Stelle die zweite Endwicklung analog her.\nBefolge die nächsten Schritte 1.3.1–1.3.7.",
+          "EN": "Create the second loop serving identically.\nFollow the next steps 1.3.1–1.3.7."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.2 Zweite Markierung setzen",
+          "EN": "1.3.2 Set second loop mark"
+        },
+        "desc": {
+          "DE": "Markiere 4,5 cm rechts und 3,5 cm links der Mitte für die Öhrchenwicklung. Wenn keine Öhrchen gewickelt werden sollen, kann dieser Punkt bis 1.4.1 übersprungen werden.",
+          "EN": "Mark 4.5 cm to the right and 3.5 cm to the left of center. If you do not want to serve the loops, you can skip ahead to 1.4.1."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.3 Wickelgarn auflegen",
+          "EN": "1.3.3 Insert serving thread"
+        },
+        "desc": {
+          "DE": "Führe das Wickelgarn an der rechten Markierung durch die Sehne und fixiere das Ende mit Finger oder Daumen.",
+          "EN": "Insert the serving thread at the right mark and hold the end in place with your finger or thumb."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.4 Wicklung beginnen",
+          "EN": "1.3.4 Start serving"
+        },
+        "desc": {
+          "DE": "Beginne mit dem Wickelgerät links und wickle eng nach rechts.\nDie Wicklung darf nicht zu fest sein.\nDie Wickelrichtung spielt hier noch keine Rolle.",
+          "EN": "Start with the winder on the left and wrap tightly to the right.\nDo not make the serving too tight.\nThe winding direction is not relevant at this point."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.5 Wicklung spannen",
+          "EN": "1.3.5 Tighten serving"
+        },
+        "desc": {
+          "DE": "Nach 1–1,5 cm das offene Ende anziehen und abschneiden. Achte darauf, den richtigen Faden abzuschneiden – nicht den, der zum Wickelgerät führt ;)",
+          "EN": "After 1–1.5 cm, pull the loose end tight and cut the excess. Make sure you cut the correct thread—not the one attached to the winder ;)"
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.6 Bis zur Markierung wickeln",
+          "EN": "1.3.6 Wrap to right mark"
+        },
+        "desc": {
+          "DE": "Wickle bis zur rechten Markierung weiter und schließe die Wicklung mit einer Endwicklung ab.\nDer Abschluss kann hier sehr kurz ausfallen.\nBereite den Sehnenwechsel zum SuperTwister vor.",
+          "EN": "Continue wrapping to the right mark and finish the serving with an end wrap.\nThe finish can be very brief here.\nPrepare the string to switch to the SuperTwister."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.7 Sehnen wechseln zum SuperTwister",
+          "EN": "1.3.7 Switch string to SuperTwister"
+        },
+        "desc": {
+          "DE": "Markiere/Notiere am Sehnengalgen die aktuelle Position der Sehnenlänge und entspanne die Sehne. Achte beim Abnehmen darauf, die Stränge möglichst straff zu halten, und lege die Sehne auf den SuperTwister.",
+          "EN": "Mark/note the current string length position on the jig and slacken the string. When removing it, keep the strands as tight as possible and place the string on the SuperTwister."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.1 Sehne verdrillen",
+          "EN": "1.4.1 Twist string"
+        },
+        "desc": {
+          "DE": "Starte jetzt das Programm, um deine Sehne im Uhrzeigersinn zu verdrehen. Nutze ggf. das BAP Excel-Tool, um die Anzahl der Verdrehungen zu ermitteln. Standard sind 0,75 Umdrehungen pro Zoll (inch) Sehnenlänge.",
+          "EN": "Start the program to twist the string clockwise (CW) based on the suggested twist count. Use the BAP Excel tool to calculate the twists. A common baseline is a 0.75 turn ratio per inch of string length."
+        },
+        "rpm": 100,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.2 Vorspannen",
+          "EN": "1.4.2 Pre-stretch"
+        },
+        "desc": {
+          "DE": "Sehne maximal bis 200 lbs vorspannen.",
+          "EN": "Pre-stretch the string to a maximum of 200 lbs."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.3 Sehne abziehen",
+          "EN": "1.4.3 Burnish string with thread"
+        },
+        "desc": {
+          "DE": "Sehne mit einem separaten Faden straff abziehen (zum Glätten der Oberfläche).",
+          "EN": "Draw a separate thread tightly along the string to burnish and smooth the surface."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.4 Endmarkierung setzen",
+          "EN": "1.4.4 Set end mark"
+        },
+        "desc": {
+          "DE": "Markiere ca. 15 cm vom Ende.",
+          "EN": "Mark approximately 15 cm from the end."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.5 Stränge umwickeln",
+          "EN": "1.4.5 Wrap both halves"
+        },
+        "desc": {
+          "DE": "Umwickle beide Stranghälften eng zusammen. Starte dafür den SuperTwister mit dem Start-Button. Du kannst auch das Gaspedal verwenden, um die Wicklung manuell zu steuern.",
+          "EN": "Wrap both strand halves tightly together. Start the SuperTwister using the Start button. You can also use the pedal to control the winding manually."
+        },
+        "rpm": 250,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.6 Bis vor Endmarkierung",
+          "EN": "1.4.6 Wrap near end mark"
+        },
+        "desc": {
+          "DE": "Bis 1,5–2 cm vor der Endmarkierung wickeln. Der SuperTwister sollte ca. 1,5–2 cm vor der Markierung stoppen.",
+          "EN": "Wrap until 1.5–2 cm before the end mark. The SuperTwister should stop automatically about 1.5–2 cm before your end mark."
+        },
+        "rpm": 250,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.7 Schlaufe zurückführen",
+          "EN": "1.4.7 Return loop"
+        },
+        "desc": {
+          "DE": "Schlaufe zurückführen und Rückwicklung beginnen. Benutze hierfür das Gaspedal, um eine kontrollierte Geschwindigkeit zu erreichen. Durch Tippen auf die gewünschte U/min kannst du die Drehzahl auf den voreingestellten Wert (100–200) zurücksetzen.",
+          "EN": "Return the loop and start back-wrapping. Use the pedal to control the RPM manually. Tap the desired RPM to reset to a predefined value (100–200)."
+        },
+        "rpm": 100,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.8 Rückwicklung ausführen",
+          "EN": "1.4.8 Execute back-wrap"
+        },
+        "desc": {
+          "DE": "1,5–2 cm sauber mit dem Gaspedal zurückwickeln.",
+          "EN": "Back-wrap 1.5–2 cm neatly using the pedal."
+        },
+        "rpm": 100,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.9 Fixieren",
+          "EN": "1.4.9 Fix serving"
+        },
+        "desc": {
+          "DE": "Wickelgarn zur Fixierung um den Sehnengalgen führen.",
+          "EN": "Lead the serving thread around the jig to secure."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.10 Hauptwicklung fortsetzen",
+          "EN": "1.4.10 Continue main wrap"
+        },
+        "desc": {
+          "DE": "Hauptwicklung fortsetzen und Rückwicklung abwickeln.",
+          "EN": "Continue the main wrap and unwind the back-wrap."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.11 Schlaufe festziehen",
+          "EN": "1.4.11 Tighten loop"
+        },
+        "desc": {
+          "DE": "Schlaufe langsam und kräftig festziehen.",
+          "EN": "Slowly pull the loop tight and secure."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.12 Garn veröden",
+          "EN": "1.4.12 Cut and seal thread"
+        },
+        "desc": {
+          "DE": "Überstehendes Garn abschneiden und vorsichtig verschmelzen (veröden).",
+          "EN": "Cut excess thread and carefully melt-seal the end."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.13 Hilfsstränge entfernen",
+          "EN": "1.4.13 Remove helper strands"
+        },
+        "desc": {
+          "DE": "Hilfsstränge ohne Beschädigung der Sehne abschneiden.",
+          "EN": "Cut helper strands without damaging the string."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.1 Position Mittelwicklung",
+          "EN": "1.5.1 Determine center serving position"
+        },
+        "desc": {
+          "DE": "Um die Position der Mittelwicklung korrekt zu übertragen, kann die alte Sehne auf einer Seite im SuperTwister eingehängt werden. Übertrage Beginn und Ende der Mittelwicklung mit einem Filzstift auf die neue Sehne.",
+          "EN": "To correctly transfer the center serving position, hook the old string into the SuperTwister on one side and mark the start and end of the center serving on the new string using the felt-tip pen."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.2 Mittelwicklung wickeln",
+          "EN": "1.5.2 Apply center serving"
+        },
+        "desc": {
+          "DE": "Achte darauf, eine enge Mittelwicklung anzubringen. Beginne die Mittelwicklung, indem du den Faden auflegst und einige Windungen machst. Starte nun das Programm zum Umwickeln der Sehne. Das Gaspedal kann dafür ebenfalls verwendet werden. Der Vorgang sollte etwa 1,5–2 cm vor der Endmarkierung stoppen.",
+          "EN": "Apply a tight center serving. Start by laying the thread and making a few initial turns. Then start the program to wrap the string; you can also use the pedal. The process should stop approximately 1.5–2 cm before the end mark."
+        },
+        "rpm": 300,
+        "turns": 200,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.3 Wicklung sichern",
+          "EN": "1.5.3 Secure center serving"
+        },
+        "desc": {
+          "DE": "Das Ende unter die letzten Wicklungen ziehen.",
+          "EN": "Pull the end under the final wraps to secure."
+        },
+        "rpm": 100,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.4 Vorspannen",
+          "EN": "1.5.4 Pre-stretch"
+        },
+        "desc": {
+          "DE": "Spanne die Sehne auf 300 lbs vor und lasse sie unter Spannung mindestens 15 Minuten ruhen. Gute Sehnen sollten etwa 2 Stunden aufgespannt bleiben.",
+          "EN": "Pre-stretch the string to 300 lbs and keep it under tension for at least 15 minutes. High-quality strings should remain stretched for approximately 2 hours."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.5 Herzlichen Glückwunsch zur neuen Sehne!",
+          "EN": "1.5.5 Congratulations on your new bowstring!"
+        },
+        "desc": {
+          "DE": "Herzlichen Glückwunsch zu deiner neuen Sehne!",
+          "EN": "Congratulations on your new bowstring!"
+        },
+        "image": "yeah2.jpg",
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.6 Hilfsprogramm beendet",
+          "EN": "1.5.6 Wizard finished"
+        },
+        "desc": {
+          "DE": "Mit Bestätigen des letzten Schritts wird das Hilfsprogramm geschlossen.",
+          "EN": "Confirming the last step will close the help wizard."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      }
+    ]
+  },
+  "compoundsehne": {
+    "display_name": {
+      "DE": "Compoundsehne bauen",
+      "EN": "Build a compound string"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1.1 Sehnenlänge bestimmen",
+          "EN": "1.1.1 Determine string length"
+        },
+        "desc": {
+          "DE": "Bestimme die gewünschte Sehnenlänge (Herstellervorgaben beachten). Strangzahl beachten.",
+          "EN": "Determine the required string length (follow the manufacturer's instructions). Check the required strand count."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.2 Sehnengalgen einstellen",
+          "EN": "1.1.2 Adjust string jig"
+        },
+        "desc": {
+          "DE": "Stelle den Sehnengalgen auf die benötigte Länge ein.",
+          "EN": "Adjust the string jig to the required length."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.3 Anfang fixieren",
+          "EN": "1.1.3 Fix starting point"
+        },
+        "desc": {
+          "DE": "Beginne auf der Innenseite und fixiere den Anfang mit Schlaufe oder Knoten.",
+          "EN": "Start on the inside and secure the beginning with a loop or knot."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.4 Stränge wickeln",
+          "EN": "1.1.4 Wind strands"
+        },
+        "desc": {
+          "DE": "Wickle die gewünschte Anzahl Stränge (z. B. 12–18) gleichmäßig und straff.",
+          "EN": "Wind the required number of strands (e.g., 12–18) evenly and tightly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.1 Mitte markieren",
+          "EN": "1.3.1 Mark center"
+        },
+        "desc": {
+          "DE": "Markiere die Mitte der beiden Endschlaufen.",
+          "EN": "Mark the center of both loops."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.2 Enden 90° drehen",
+          "EN": "1.3.2 Rotate ends 90°"
+        },
+        "desc": {
+          "DE": "Drehe die Enden des Sehnengalgens unter Spannung um 90°.",
+          "EN": "Rotate the jig ends 90° while keeping tension."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.3 Gegenüber beginnen",
+          "EN": "1.3.3 Start opposite side"
+        },
+        "desc": {
+          "DE": "Beginne am gegenüberliegenden Ende des Startpunktes.",
+          "EN": "Start serving on the side opposite the starting point."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.4 Stranganzahl prüfen",
+          "EN": "1.3.4 Check strand count"
+        },
+        "desc": {
+          "DE": "Prüfe, ob die gewünschte Anzahl Stränge vorhanden ist.",
+          "EN": "Verify the correct strand count."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.5 Markierungen setzen",
+          "EN": "1.3.5 Set loop marks"
+        },
+        "desc": {
+          "DE": "Markiere 4,5 cm rechts und 3,5 cm links der Mitte.",
+          "EN": "Mark 4.5 cm to the right and 3.5 cm to the left of center."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.6 Wickelgarn einführen",
+          "EN": "1.3.6 Insert serving thread"
+        },
+        "desc": {
+          "DE": "Stecke das Wickelgarn an der rechten Markierung durch die Sehne.",
+          "EN": "Insert the serving thread at the right mark."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.7 Wicklung beginnen",
+          "EN": "1.3.7 Start serving"
+        },
+        "desc": {
+          "DE": "Beginne rechts und wickle eng nach links.",
+          "EN": "Start on the right and wrap tightly to the left."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.8 Wicklung spannen",
+          "EN": "1.3.8 Tighten serving"
+        },
+        "desc": {
+          "DE": "Nach 1–1,5 cm das offene Ende anziehen und abschneiden.",
+          "EN": "After 1–1.5 cm, pull the loose end tight and cut the excess."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.9 Bis Markierung wickeln",
+          "EN": "1.3.9 Wrap to left mark"
+        },
+        "desc": {
+          "DE": "Wickle bis zur linken Markierung weiter.",
+          "EN": "Continue wrapping to the left mark."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.10 Zurückdrehen",
+          "EN": "1.3.10 Rotate back"
+        },
+        "desc": {
+          "DE": "Drehe das Ende des Sehnengalgens um 90° zurück.",
+          "EN": "Rotate the jig end back 90°."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.11 Endmarkierung setzen",
+          "EN": "1.3.11 Set end mark"
+        },
+        "desc": {
+          "DE": "Markiere ca. 15 cm vom Ende.",
+          "EN": "Mark approximately 15 cm from the end."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.12 Stränge umwickeln",
+          "EN": "1.3.12 Wrap both halves"
+        },
+        "desc": {
+          "DE": "Umwickle beide Stranghälften eng zusammen.",
+          "EN": "Wrap both strand halves tightly together."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.13 Bis vor Endmarkierung",
+          "EN": "1.3.13 Wrap near end mark"
+        },
+        "desc": {
+          "DE": "Bis 1,5–2 cm vor der Endmarkierung wickeln.",
+          "EN": "Wrap until 1.5–2 cm before the end mark."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.14 Schlaufe zurückführen",
+          "EN": "1.3.14 Return loop"
+        },
+        "desc": {
+          "DE": "Schlaufe zurückführen und Rückwicklung beginnen.",
+          "EN": "Return the loop and start back-wrapping."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.15 Rückwicklung ausführen",
+          "EN": "1.3.15 Execute back-wrap"
+        },
+        "desc": {
+          "DE": "1,5–2 cm sauber zurückwickeln.",
+          "EN": "Back-wrap 1.5–2 cm neatly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.16 Fixieren",
+          "EN": "1.3.16 Fix serving"
+        },
+        "desc": {
+          "DE": "Wickelgarn zur Fixierung um den Sehnengalgen führen.",
+          "EN": "Lead the serving thread around the jig to secure."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.17 Hauptwicklung fortsetzen",
+          "EN": "1.3.17 Continue main wrap"
+        },
+        "desc": {
+          "DE": "Hauptwicklung fortsetzen und Rückwicklung abwickeln.",
+          "EN": "Continue the main wrap and unwind the back-wrap."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.18 Schlaufe festziehen",
+          "EN": "1.3.18 Tighten loop"
+        },
+        "desc": {
+          "DE": "Schlaufe langsam kräftig festziehen.",
+          "EN": "Slowly pull the loop tight."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.19 Garn veröden",
+          "EN": "1.3.19 Cut and seal thread"
+        },
+        "desc": {
+          "DE": "Überstehendes Garn abschneiden und vorsichtig verschmelzen (veröden).",
+          "EN": "Cut excess thread and carefully melt-seal."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.20 Hilfsstränge entfernen",
+          "EN": "1.3.20 Remove helper strands"
+        },
+        "desc": {
+          "DE": "Hilfsstränge ohne Beschädigung abschneiden.",
+          "EN": "Cut helper strands without damaging the string."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.21 Zweite Endwicklung",
+          "EN": "1.3.21 Second loop serving"
+        },
+        "desc": {
+          "DE": "Zweite Endwicklung analog herstellen.",
+          "EN": "Create the second loop serving identically."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.1 Sehne verdrillen",
+          "EN": "1.4.1 Twist string"
+        },
+        "desc": {
+          "DE": "Sehne leicht in Schussrichtung verdrehen.",
+          "EN": "Lightly twist the string in the shooting direction."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.4.2 Vorspannen",
+          "EN": "1.4.2 Pre-stretch"
+        },
+        "desc": {
+          "DE": "Sehne mehrere Stunden unter Spannung ruhen lassen.",
+          "EN": "Pre-stretch the string under tension for several hours."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.1 Position Mittelwicklung",
+          "EN": "1.5.1 Determine center serving position"
+        },
+        "desc": {
+          "DE": "Position abhängig von Standhöhe und Nockpunkt festlegen.",
+          "EN": "Determine the position based on brace height and nocking point."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.2 Mittelwicklung wickeln",
+          "EN": "1.5.2 Apply center serving"
+        },
+        "desc": {
+          "DE": "Eine enge Mittelwicklung anbringen.",
+          "EN": "Apply a tight center serving."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.3 Wicklung sichern",
+          "EN": "1.5.3 Secure center serving"
+        },
+        "desc": {
+          "DE": "Das Ende unter die letzten Wicklungen ziehen.",
+          "EN": "Pull the end under the final wraps."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.5.4 Nockpunkt setzen",
+          "EN": "1.5.4 Set nocking point"
+        },
+        "desc": {
+          "DE": "Nockpunkt mit Garn oder Messingring setzen.",
+          "EN": "Install the nocking point with thread or a brass nock."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.6.1 Sehne wachsen",
+          "EN": "1.6.1 Wax string"
+        },
+        "desc": {
+          "DE": "Sehne vollständig und gleichmäßig wachsen.",
+          "EN": "Apply wax to the entire string evenly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.6.2 Standhöhe einstellen",
+          "EN": "1.6.2 Adjust brace height"
+        },
+        "desc": {
+          "DE": "Standhöhe durch leichtes Verdrehen einstellen.",
+          "EN": "Adjust brace height by slightly twisting the string."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.6.3 Nachjustieren",
+          "EN": "1.6.3 Fine adjustment"
+        },
+        "desc": {
+          "DE": "Nach dem Einschießen die Standhöhe ggf. nachjustieren.",
+          "EN": "Fine-tune brace height after initial shooting."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      }
+    ]
+  },
+  "compoundcabley": {
+    "display_name": {
+      "DE": "Compound Yoke Kabel",
+      "EN": "Compound yoke cable"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1.1 Yoke-Kabellänge bestimmen",
+          "EN": "1.1.1 Determine yoke cable length"
+        },
+        "desc": {
+          "DE": "Bestimme die gewünschte Yoke-Kabellänge anhand der Herstellertabelle.",
+          "EN": "Determine the yoke cable length based on the manufacturer's selection chart."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.2 Sehnengalgen einstellen",
+          "EN": "1.1.2 Adjust string jig"
+        },
+        "desc": {
+          "DE": "Stelle den Sehnengalgen auf die benötigte Länge ein.",
+          "EN": "Adjust the string jig to the required length."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.3 Anfang fixieren",
+          "EN": "1.1.3 Fix starting point"
+        },
+        "desc": {
+          "DE": "Beginne auf der Innenseite und fixiere den Anfang mit Schlaufe oder Knoten.",
+          "EN": "Start on the inside and secure the beginning with a loop or knot."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.4 Stränge wickeln",
+          "EN": "1.1.4 Wind strands"
+        },
+        "desc": {
+          "DE": "Wickle die gewünschte Anzahl Stränge (z. B. 12–18) gleichmäßig und straff.",
+          "EN": "Wind the required number of strands (e.g., 12–18) evenly and tightly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.1 Mitte markieren",
+          "EN": "1.3.1 Mark center"
+        },
+        "desc": {
+          "DE": "Markiere die Mitte der beiden Endschlaufen.",
+          "EN": "Mark the center of both loops."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.2 Enden 90° drehen",
+          "EN": "1.3.2 Rotate ends 90°"
+        },
+        "desc": {
+          "DE": "Drehe die Enden des Sehnengalgens unter Spannung um 90°.",
+          "EN": "Rotate the jig ends 90° while keeping tension."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      }
+    ]
+  },
+  "compoundcablec": {
+    "display_name": {
+      "DE": "Compound Control Kabel",
+      "EN": "Compound control cable"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1.1 Kabellänge bestimmen",
+          "EN": "1.1.1 Determine cable length"
+        },
+        "desc": {
+          "DE": "Bestimme die gewünschte Control-Kabellänge anhand der Herstellertabelle.",
+          "EN": "Determine the control cable length based on the manufacturer's selection chart."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.2 Sehnengalgen einstellen",
+          "EN": "1.1.2 Adjust string jig"
+        },
+        "desc": {
+          "DE": "Stelle den Sehnengalgen auf die benötigte Länge ein.",
+          "EN": "Adjust the string jig to the required length."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.3 Anfang fixieren",
+          "EN": "1.1.3 Fix starting point"
+        },
+        "desc": {
+          "DE": "Beginne auf der Innenseite und fixiere den Anfang mit Schlaufe oder Knoten.",
+          "EN": "Start on the inside and secure the beginning with a loop or knot."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.4 Stränge wickeln",
+          "EN": "1.1.4 Wind strands"
+        },
+        "desc": {
+          "DE": "Wickle die gewünschte Anzahl Stränge (z. B. 12–18) gleichmäßig und straff.",
+          "EN": "Wind the required number of strands (e.g., 12–18) evenly and tightly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.1 Mitte markieren",
+          "EN": "1.3.1 Mark center"
+        },
+        "desc": {
+          "DE": "Markiere die Mitte der beiden Endschlaufen.",
+          "EN": "Mark the center of both loops."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.2 Enden 90° drehen",
+          "EN": "1.3.2 Rotate ends 90°"
+        },
+        "desc": {
+          "DE": "Drehe die Enden des Sehnengalgens unter Spannung um 90°.",
+          "EN": "Rotate the jig ends 90° while keeping tension."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      }
+    ]
+  },
+  "compoundcableo": {
+    "display_name": {
+      "DE": "Compound Sehne (One Cam)",
+      "EN": "Compound string (One Cam)"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1.1 Sehnenlänge bestimmen",
+          "EN": "1.1.1 Determine string length"
+        },
+        "desc": {
+          "DE": "Bestimme die gewünschte Sehnenlänge (Bogenlänge minus 4–6 Zoll). Standhöhe beachten.",
+          "EN": "Determine the desired string length (bow length minus 4–6 inches). Check brace height."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.2 Sehnengalgen einstellen",
+          "EN": "1.1.2 Adjust string jig"
+        },
+        "desc": {
+          "DE": "Stelle den Sehnengalgen auf die benötigte Länge ein.",
+          "EN": "Adjust the string jig to the required length."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.3 Anfang fixieren",
+          "EN": "1.1.3 Fix starting point"
+        },
+        "desc": {
+          "DE": "Beginne auf der Innenseite und fixiere den Anfang mit Schlaufe oder Knoten.",
+          "EN": "Start on the inside and secure the beginning with a loop or knot."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.4 Stränge wickeln",
+          "EN": "1.1.4 Wind strands"
+        },
+        "desc": {
+          "DE": "Wickle die gewünschte Anzahl Stränge (z. B. 12–18) gleichmäßig und straff.",
+          "EN": "Wind the required number of strands (e.g., 12–18) evenly and tightly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.1 Mitte markieren",
+          "EN": "1.3.1 Mark center"
+        },
+        "desc": {
+          "DE": "Markiere die Mitte der beiden Endschlaufen.",
+          "EN": "Mark the center of both loops."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.2 Enden 90° drehen",
+          "EN": "1.3.2 Rotate ends 90°"
+        },
+        "desc": {
+          "DE": "Drehe die Enden des Sehnengalgens unter Spannung um 90°.",
+          "EN": "Rotate the jig ends 90° while keeping tension."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      }
+    ]
+  },
+  "compoundcableb": {
+    "display_name": {
+      "DE": "Compound Balance Kabel",
+      "EN": "Compound balance cable"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1.1 Sehnenlänge bestimmen",
+          "EN": "1.1.1 Determine string length"
+        },
+        "desc": {
+          "DE": "Bestimme die gewünschte Sehnenlänge (Bogenlänge minus 4–6 Zoll). Standhöhe beachten.",
+          "EN": "Determine the desired string length (bow length minus 4–6 inches). Check brace height."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.2 Sehnengalgen einstellen",
+          "EN": "1.1.2 Adjust string jig"
+        },
+        "desc": {
+          "DE": "Stelle den Sehnengalgen auf die benötigte Länge ein.",
+          "EN": "Adjust the string jig to the required length."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.3 Anfang fixieren",
+          "EN": "1.1.3 Fix starting point"
+        },
+        "desc": {
+          "DE": "Beginne auf der Innenseite und fixiere den Anfang mit Schlaufe oder Knoten.",
+          "EN": "Start on the inside and secure the beginning with a loop or knot."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.4 Stränge wickeln",
+          "EN": "1.1.4 Wind strands"
+        },
+        "desc": {
+          "DE": "Wickle die gewünschte Anzahl Stränge (z. B. 12–18) gleichmäßig und straff.",
+          "EN": "Wind the required number of strands (e.g., 12–18) evenly and tightly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.1 Mitte markieren",
+          "EN": "1.3.1 Mark center"
+        },
+        "desc": {
+          "DE": "Markiere die Mitte der beiden Endschlaufen.",
+          "EN": "Mark the center of both loops."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.2 Enden 90° drehen",
+          "EN": "1.3.2 Rotate ends 90°"
+        },
+        "desc": {
+          "DE": "Drehe die Enden des Sehnengalgens unter Spannung um 90°.",
+          "EN": "Rotate the jig ends 90° while keeping tension."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      }
+    ]
+  },
+  "flemishsplice": {
+    "display_name": {
+      "DE": "Flämischer Spleiß – Mittelwicklung",
+      "EN": "Flemish splice – center serving"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1.1 Sehnenlänge bestimmen",
+          "EN": "1.1.1 Determine string length"
+        },
+        "desc": {
+          "DE": "Bestimme die gewünschte Sehnenlänge (Bogenlänge minus 4–6 Zoll). Standhöhe beachten.",
+          "EN": "Determine the desired string length (bow length minus 4–6 inches). Check brace height."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.2 Sehnengalgen einstellen",
+          "EN": "1.1.2 Adjust string jig"
+        },
+        "desc": {
+          "DE": "Stelle den Sehnengalgen auf die benötigte Länge ein.",
+          "EN": "Adjust the string jig to the required length."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.3 Anfang fixieren",
+          "EN": "1.1.3 Fix starting point"
+        },
+        "desc": {
+          "DE": "Beginne auf der Innenseite und fixiere den Anfang mit Schlaufe oder Knoten.",
+          "EN": "Start on the inside and secure the beginning with a loop or knot."
+        },
+        "rpm": 0,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.4 Stränge wickeln",
+          "EN": "1.1.4 Wind strands"
+        },
+        "desc": {
+          "DE": "Wickle die gewünschte Anzahl Stränge (z. B. 12–18) gleichmäßig und straff.",
+          "EN": "Wind the required number of strands (e.g., 12–18) evenly and tightly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.1 Mitte markieren",
+          "EN": "1.3.1 Mark center"
+        },
+        "desc": {
+          "DE": "Markiere die Mitte der beiden Endschlaufen.",
+          "EN": "Mark the center of both loops."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.2 Enden 90° drehen",
+          "EN": "1.3.2 Rotate ends 90°"
+        },
+        "desc": {
+          "DE": "Drehe die Enden des Sehnengalgens unter Spannung um 90°.",
+          "EN": "Rotate the jig ends 90° while keeping tension."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      }
+    ]
+  },
+  "crossbow": {
+    "display_name": {
+      "DE": "Armbrustsehne bauen",
+      "EN": "Build crossbow string"
+    },
+    "steps": [
+      {
+        "title": {
+          "DE": "1.1.1 Sehnenlänge bestimmen",
+          "EN": "1.1.1 Determine string length"
+        },
+        "desc": {
+          "DE": "Bestimme die gewünschte Sehnenlänge (Bogenlänge minus 4–6 Zoll). Standhöhe beachten.",
+          "EN": "Determine the desired string length (bow length minus 4–6 inches). Check brace height."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.2 Sehnengalgen einstellen",
+          "EN": "1.1.2 Adjust string jig"
+        },
+        "desc": {
+          "DE": "Stelle den Sehnengalgen auf die benötigte Länge ein.",
+          "EN": "Adjust the string jig to the required length."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.3 Anfang fixieren",
+          "EN": "1.1.3 Fix starting point"
+        },
+        "desc": {
+          "DE": "Beginne auf der Innenseite und fixiere den Anfang mit Schlaufe oder Knoten.",
+          "EN": "Start on the inside and secure the beginning with a loop or knot."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.1.4 Stränge wickeln",
+          "EN": "1.1.4 Wind strands"
+        },
+        "desc": {
+          "DE": "Wickle die gewünschte Anzahl Stränge (z. B. 12–18) gleichmäßig und straff.",
+          "EN": "Wind the required number of strands (e.g., 12–18) evenly and tightly."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.1 Mitte markieren",
+          "EN": "1.3.1 Mark center"
+        },
+        "desc": {
+          "DE": "Markiere die Mitte der beiden Endschlaufen.",
+          "EN": "Mark the center of both loops."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      },
+      {
+        "title": {
+          "DE": "1.3.2 Enden 90° drehen",
+          "EN": "1.3.2 Rotate ends 90°"
+        },
+        "desc": {
+          "DE": "Drehe die Enden des Sehnengalgens unter Spannung um 90°.",
+          "EN": "Rotate the jig ends 90° while keeping tension."
+        },
+        "rpm": 200,
+        "turns": 0,
+        "direction": true
+      }
+    ]
+  }
+}
