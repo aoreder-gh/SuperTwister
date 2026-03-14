@@ -1,0 +1,7 @@
+{
+    "name": "2500-600",
+    "rpm": 2500,
+    "turns": 600,
+    "direction": "cw",
+    "twist_mode": false
+}

@@ -1,0 +1,7 @@
+{
+    "name": "400-40",
+    "rpm": 400,
+    "turns": 40,
+    "direction": "ccw",
+    "twist_mode": false
+}

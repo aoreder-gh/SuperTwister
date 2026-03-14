@@ -1,0 +1,7 @@
+{
+    "name": "Recurve-Eindrehen-64",
+    "rpm": 150,
+    "turns": 30,
+    "direction": "cw",
+    "twist_mode": true
+}
