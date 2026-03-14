@@ -1,0 +1,8 @@
+# Python cache files
+__pycache__/
+
+# Private files and directories
+.private/
+
+# Log files starting with .lgd
+.lgd*
