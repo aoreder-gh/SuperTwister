@@ -309,9 +309,10 @@ def create_main_window():
         os.execl(python, python, *sys.argv)
 
     def start_press(event):
-        if event.widget['state'] != 'normal':
-            return
         global after_id
+        after_id = None
+        if state.machine_state != IDLE:
+            return
         toggle_reset(event)
         after_id = root.after(700, lambda: show_hint(event))
 
