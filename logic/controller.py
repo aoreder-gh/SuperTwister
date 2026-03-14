@@ -416,6 +416,12 @@ def run_motor_loop(shutdown_event=None):
         if state.machine_state == RUNNING and state.actual_rpm > 0:
 
             delta_turns = (state.actual_rpm / ENCODER_TIME) * dt
+
+            # In twist mode both sides rotate against each other, so the
+            # twist count should reflect the combined movement.
+            if state.twist_mode:
+                delta_turns *= 2
+
             state.completed_turns += delta_turns
 
             if state.remaining_turns > 0:

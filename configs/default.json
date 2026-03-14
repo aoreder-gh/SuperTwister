@@ -1,11 +1,11 @@
 {
-    "target_rpm": 230,
-    "direction": true,
+    "target_rpm": 150,
+    "direction": 0,
     "remaining_turns": 0,
     "loaded_turns": 0,
-    "completed_turns": 128.5899180133023,
+    "completed_turns": 75.83844739669641,
     "language": "DE",
-    "twist_mode": false,
+    "twist_mode": true,
     "throttle_min_v": 0.82875,
     "throttle_max_v": 4.0458750000000006,
     "current_profile": "400-endless"
