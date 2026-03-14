@@ -1,11 +1,10 @@
-#  /**
-#   * Super Twister 3001
-#   *
-#   * @author    Andreas Reder <aoreder@gmail.com>
-#   *
-#   * @copyright Andreas Reder
-#   * @version   1.0.0
-#   */
+# ==============================================================
+# Super Twister 3001
+# calibration_dialog
+# dialog window to calibrate throttle voltage (min and max volt)
+# @author    Andreas Reder <aoreder@gmail.com>
+# ==============================================================
+
 
 import tkinter as tk
 

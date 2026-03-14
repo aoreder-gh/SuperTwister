@@ -1,11 +1,9 @@
-#  /**
-#   * Super Twister 3001
-#   *
-#   * @author    Andreas Reder <aoreder@gmail.com>
-#   *
-#   * @copyright Andreas Reder
-#   * @version   1.0.0
-#   */
+# ==============================================================
+# Super Twister 3001
+# watchdog for RPI 4
+# helper function for RPI4 to check if pigpiod is running
+# @author    Andreas Reder <aoreder@gmail.com>
+# ==============================================================
 
 import threading
 from hardware.failsafe import gpio_failsafe

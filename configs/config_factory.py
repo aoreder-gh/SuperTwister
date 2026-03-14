@@ -1,11 +1,9 @@
-#  /**
-#   * Super Twister 3001
-#   *
-#   * @author    Andreas Reder <aoreder@gmail.com>
-#   *
-#   * @copyright Andreas Reder
-#   * @version   1.0.0 Factory Default Version
-#   */
+# ===============================================================
+# Super Twister 3001
+# Parameter CONSTANTS FACTORY DEFAULTS
+# Main factory config file with all parameters and default values
+# @author    Andreas Reder <aoreder@gmail.com>
+# ===============================================================
 
 # fixed const
 APP_NAME = "Super Twister 3001"

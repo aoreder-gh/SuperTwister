@@ -1,11 +1,9 @@
-#  /**
-#   * Super Twister 3001
-#   *
-#   * @author    Andreas Reder <aoreder@gmail.com>
-#   *
-#   * @copyright Andreas Reder
-#   * @version   1.0.0
-#   */
+# ==============================================================
+# Super Twister 3001
+# helper class base_dialog
+# Main base dialog class to load dialog scripts in one frame
+# @author    Andreas Reder <aoreder@gmail.com>
+# ==============================================================
 
 import tkinter as tk
 

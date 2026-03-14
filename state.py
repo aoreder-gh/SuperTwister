@@ -1,3 +1,10 @@
+# ==============================================================
+# Super Twister 3001
+# state
+# global state variables
+# @author    Andreas Reder <aoreder@gmail.com>
+# ==============================================================
+
 # if throttle or button is used
 started_by_button = False
 # Global shared state

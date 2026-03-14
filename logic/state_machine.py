@@ -1,11 +1,9 @@
-#  /**
-#   * Super Twister 3001
-#   *
-#   * @author    Andreas Reder <aoreder@gmail.com>
-#   *
-#   * @copyright Andreas Reder
-#   * @version   1.0.0
-#   */
+# ==============================================================
+# Super Twister 3001
+# set state machine params
+# helper function to set machine_state status
+# @author    Andreas Reder <aoreder@gmail.com>
+# ==============================================================
 
 import state
 

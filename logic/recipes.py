@@ -1,11 +1,9 @@
-#  /**
-#   * Super Twister 3001
-#   *
-#   * @author    Andreas Reder <aoreder@gmail.com>
-#   *
-#   * @copyright Andreas Reder
-#   * @version   1.0.0
-#   */
+# ==============================================================
+# Super Twister 3001
+# receipes class
+# Main receiopes file to list, load and save receipes
+# @author    Andreas Reder <aoreder@gmail.com>
+# ==============================================================
 
 import json
 import os

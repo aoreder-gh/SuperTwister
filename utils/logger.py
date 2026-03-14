@@ -1,3 +1,9 @@
+# ==============================================================
+# Super Twister 3001
+# logger
+# utility functions for logging
+# @author    Andreas Reder <aoreder@gmail.com>
+# ==============================================================
 
 import logging, os
 def setup_logger(profile):

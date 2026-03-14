@@ -1,9 +1,10 @@
-#  /**
-#   * Super Twister 3001
-#   *
-#   * @author    Andreas Reder
-#   * @version   1.1.0
-#   */
+# ==============================================================
+# Super Twister 3001
+# main
+# main entry point of the application
+# handles initialization, shutdown, and main loop
+# @author    Andreas Reder <aoreder@gmail.com>
+# ==============================================================
 
 import atexit
 import os
