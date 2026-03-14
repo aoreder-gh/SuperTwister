@@ -57,7 +57,7 @@ def create_main_window():
     cpu_temp()
 
     # ================= BACKGROUND =================
-    img = Image.open(IMG_PATH + 'archery-wallpaper-1.jpg')
+    img = Image.open(IMG_PATH + 'background.jpg')
     img = img.resize((width, height), 1)
     image1 = ImageTk.PhotoImage(img)
     
