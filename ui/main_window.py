@@ -194,6 +194,8 @@ def create_main_window():
         repeat_job = root.after(200, repeat_minus)
 
     def on_plus_cnt_press(e):
+        if state.machine_state != IDLE:
+            return
         global press_cnt_time
         press_cnt_time = time.time()
         repeat_cnt_plus()
@@ -213,6 +215,8 @@ def create_main_window():
         repeat_job = root.after(200, repeat_cnt_plus)
 
     def on_minus_cnt_press(e):
+        if state.machine_state != IDLE:
+            return
         global press_cnt_mtime
         press_cnt_mtime = time.time()
         repeat_cnt_minus()
@@ -232,13 +236,19 @@ def create_main_window():
         repeat_job = root.after(200, repeat_cnt_minus)
 
     def set_start_rpm(e=None):
+        if e and state.machine_state != IDLE:
+            return
         state.target_rpm = START_RPM
 
     def set_endless(e=None):
+        if e and state.machine_state != IDLE:
+            return
         state.remaining_turns = 0
         state.endless_turns = 1
 
     def toggle_counter(e=None):
+        if e and state.machine_state != IDLE:
+            return
         state.completed_turns = 0 if state.completed_turns > 0 else 0
 
     def toggle_lang():
@@ -272,9 +282,6 @@ def create_main_window():
     def toggle_twist():
         state.twist_mode = True if state.twist_mode == False else False
         if state.twist_mode:
-            #state.remaining_turns = 0
-            #state.endless_turns = 1
-            #state.throttle_blocked = False
             state.target_rpm = TWIST_RPM
         else:
             state.target_rpm = START_RPM
@@ -302,6 +309,8 @@ def create_main_window():
         os.execl(python, python, *sys.argv)
 
     def start_press(event):
+        if event.widget['state'] != 'normal':
+            return
         global after_id
         toggle_reset(event)
         after_id = root.after(700, lambda: show_hint(event))
@@ -387,7 +396,7 @@ def create_main_window():
     # --- lock label 2 ---
     lock_lbl = tk.Label(panel1, font=LBL_FONT, borderwidth=5, relief="raised")
     lock_lbl.grid(row=0, column=2, sticky="nsew", padx=PAD_X, pady=PAD_Y)
-    lock_lbl.bind("<Button-1>", toggle_motor)
+    lock_lbl.bind("<Button-1>", lambda e: toggle_motor() if state.machine_state == IDLE else None)
     
     # --- label rpm 2 ---
     val_rpm = tk.Label(panel1, font=BIG_FONT, bg="medium purple")
@@ -396,7 +405,7 @@ def create_main_window():
     # --- label status 2 ---
     lbl_state = tk.Label(panel1, font=LBL_FONT, bg="medium purple", borderwidth=5, relief="raised")
     lbl_state.grid(row=1, column=2, sticky="nsew", padx=PAD_X, pady=PAD_Y)
-    lbl_state.bind("<Button-1>", lambda e: toggle_sec())
+    lbl_state.bind("<Button-1>", lambda e: toggle_sec() if state.machine_state == IDLE else None)
 
     # --- Counter / Endless 3 ---
     btn_plus_cnt = tk.Button(panel1, text="+", font=BIG_FONT, bg="khaki1", borderwidth=5, relief="raised", command=lambda: (
@@ -453,9 +462,8 @@ def create_main_window():
     btn_lcfg.grid(row=0, column=0, sticky="nsew")
 
     lbl_lcfg = tk.Button(cfg_frame, font=LBL_FONT, bg="white", width = 12, borderwidth=5, relief="raised")
-    hint = tk.Label(panel1, text="Hinweis", bg="light yellow", font=LBL_FONT, padx=PAD_X, pady=PAD_Y, borderwidth=5, relief="raised")
+    hint = tk.Label(panel1, text="Hint", bg="light yellow", font=LBL_FONT, padx=PAD_X, pady=PAD_Y, borderwidth=5, relief="raised")
     lbl_lcfg.grid(row=1, column=0, sticky="nsew")
-    #lbl_lcfg.bind("<Button-1>", toggle_reset)
     lbl_lcfg.bind("<ButtonPress-1>", start_press)
     lbl_lcfg.bind("<ButtonRelease-1>", end_press)
 
@@ -607,6 +615,7 @@ def create_main_window():
         btn_stop.config(state=NORMAL if not is_idle else DISABLED)
         btn_start.config(state=NORMAL if is_idle else DISABLED)
         btn_center.config(state=NORMAL if is_idle else DISABLED)
+        btn_quit.config(state=NORMAL if is_idle else DISABLED)
         btn_lang.config(state=NORMAL if is_idle else DISABLED)
         btn_lcfg.config(state=NORMAL if is_idle else DISABLED)
         btn_scfg.config(state=NORMAL if is_idle else DISABLED)
@@ -617,14 +626,20 @@ def create_main_window():
         btn_twist.config(state=NORMAL if is_idle else DISABLED)
         btn_hlp.config(state=NORMAL if is_idle else DISABLED)
         btn_wzd.config(state=NORMAL if is_idle else DISABLED)
-        
+        btn_plus_cnt.config(state=NORMAL if is_idle else DISABLED)
+        btn_minus_cnt.config(state=NORMAL if is_idle else DISABLED)
+        lbl_lcfg.config(state=NORMAL if is_idle else DISABLED)
+        #val_cnt.config(state=NORMAL if is_idle else DISABLED)
+        #lbl_state.config(state=NORMAL if is_idle else DISABLED)
+        #lbl_rpm.config(state=NORMAL if is_idle else DISABLED)
+        #lock_lbl.config(state=NORMAL if is_idle else DISABLED)
+
+        # update throttle bar
         throttle_active = state.throttle_percent > THROTTLE_START
         if not throttle_active:
             percent = int(state.actual_rpm / state.target_rpm * 100) if state.target_rpm > 0 else 0
         else:
             percent = int(state.throttle_percent * 100)
-        #percent = int(state.throttle_percent * 100)
-
         throttle_bar["value"] = percent
 
         # color change, depend of throttle percent
