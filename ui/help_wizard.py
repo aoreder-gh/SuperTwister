@@ -159,7 +159,7 @@ class HelpDialog(BaseDialog):
 
         self.done_check = tk.Checkbutton(
             self.nav_frame,
-            text=language.texts[state.language]["stepCompleted"],
+            text=t["stepCompleted"],
             font=("Arial", 16, "bold"),
             variable=self.done_var,
             bg=self.nav_frame.cget("bg"),
@@ -191,7 +191,8 @@ class HelpDialog(BaseDialog):
     # -------------------------------------------------
 
     def reset_wizard(self):
-        if not messagebox.askyesno(language.texts[state.language]["unsafe"], language.texts[state.language]["wizard_reset"]):
+        t = language.texts[state.language]
+        if not messagebox.askyesno(title=t["unsafe"], message=t["wizard_reset"], parent=self):
             return
 
         # reset global wizard state

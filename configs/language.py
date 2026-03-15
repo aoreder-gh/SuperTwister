@@ -86,6 +86,7 @@ texts = {
         "allowed": "Erlaubt", 
         "min": "Min.", 
         "max": "Max.",
+
         # ==========================================
         # CONFIG MESSAGES
         # ==========================================
@@ -106,6 +107,7 @@ texts = {
         "error_range": "Wert außerhalb erlaubtem Bereich",
         "error_min": "Wert ist zu klein",
         "error_max": "Wert ist zu groß",
+        "error_twist_mode": "Der Twist Mode kann nur mit der maximal eingestellten Drehzahl von {TWIST_RPM} benutzt werden!",
 
         # ==========================================
         # TOUCH / UI
@@ -220,6 +222,7 @@ texts = {
         "error_range": "Value out of allowed range",
         "error_min": "Value too small",
         "error_max": "Value too large",
+        "error_twist_mode": "The Twist Mode can only be used with the maximum set speed of {TWIST_RPM}!",
 
         # ==========================================
         # TOUCH / UI

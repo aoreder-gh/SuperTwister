@@ -158,7 +158,7 @@ class HelpTwisterDialog(BaseDialog):
 
         self.done_check = tk.Checkbutton(
             self.nav_frame,
-            text=language.texts[state.language]["helpCompleted"],
+            text=t["helpCompleted"],
             font=("Arial", 16, "bold"),
             variable=self.done_var,
             bg=self.nav_frame.cget("bg"),
@@ -190,7 +190,8 @@ class HelpTwisterDialog(BaseDialog):
     # -------------------------------------------------
 
     def reset_wizard(self):
-        if not tk.messagebox.askyesno(language.texts[state.language]["unsafe"], language.texts[state.language]["help_reset"]):
+        t = language.texts[state.language]
+        if not tk.messagebox.askyesno(title=t["unsafe"], message=t["help_reset"], parent=self):
             return
 
         # reset global wizard state

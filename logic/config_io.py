@@ -8,7 +8,7 @@ import json
 import os
 import state
 
-from configs.config import CONFIG_DIR, RECIPE_DIR, DEFAULT_PROFILE
+from configs.config import CONFIG_DIR, RECIPE_DIR, DEFAULT_PROFILE, TWIST_RPM
 from utils.debug import dprint
 from utils.logger import setup_logger
 
@@ -64,6 +64,8 @@ def load_receipe(profile=None):
     if profile is None: profile = state.current_profile
     with open(_r(profile)) as f:
         d = json.load(f)
+    
+
     state.target_rpm = d["rpm"]
     state.remaining_turns = d["turns"]
     state.loaded_turns = d["turns"]
@@ -72,4 +74,11 @@ def load_receipe(profile=None):
     state.loaded_rpm = d["rpm"]
     state.loaded_turns = d["turns"]
     state.current_profile = d["name"]
+
+    # If twist mode is active when loading a recipe, ensure we start at the
+    # twist maximum speed.
+    if getattr(state, "twist_mode", False):
+        state.target_rpm = TWIST_RPM
+        #state.loaded_rpm = TWIST_RPM
+
     dprint(f"Recipe loaded from {f}")

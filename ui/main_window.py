@@ -71,6 +71,7 @@ def create_main_window():
 
     # id for after job to show hint when long press on reset button
     after_id = None
+    hint_visible = False
 
     # ================= GRID =================
     #for c in range(7): panel1.columnconfigure(c, weight=1)
@@ -144,16 +145,6 @@ def create_main_window():
 
     def step_down(val, step):
         return val - step
-
-    def rpm_plus():
-        new = step_up(state.target_rpm, STEP_RPM)
-        state.target_rpm = clamp(new, MIN_RPM, MAX_RPM)
-        state.ramp_active = False
-
-    def rpm_minus():
-        new = step_down(state.target_rpm, STEP_RPM)
-        state.target_rpm = clamp(new, MIN_RPM, MAX_RPM)
-        state.ramp_active = False
 
     def on_plus_press(e):
         global press_time
@@ -255,12 +246,19 @@ def create_main_window():
         state.language = EN if state.language == DE else DE
 
     def toggle_reset(e=None):
-        state.target_rpm = state.loaded_rpm
+        if getattr(state, "twist_mode", False):
+            state.target_rpm = TWIST_RPM
+            t = language.texts[state.language]
+            mb.showinfo(t['info'], t['error_twist_mode'].format(TWIST_RPM=TWIST_RPM))
+            return False
+        else:
+            state.target_rpm = state.loaded_rpm
         state.remaining_turns = state.loaded_turns
         state.completed_turns = 0
         if state.loaded_turns > 0:
             state.endless_turns = 0
             state.throttle_blocked = False
+        return True
 
     def on_start():
         if state.machine_state != IDLE:
@@ -313,22 +311,33 @@ def create_main_window():
         after_id = None
         if state.machine_state != IDLE:
             return
-        toggle_reset(event)
-        after_id = root.after(700, lambda: show_hint(event))
+        if toggle_reset(event):
+            after_id = root.after(700, lambda: show_hint(event))
 
     def end_press(event):
-        global after_id
+        global after_id, hint_visible
         if after_id:
             root.after_cancel(after_id)
             after_id = None
+        if hint_visible:
+            # Start timer to hide hint after 3 seconds
+            root.after(3000, lambda: hide_hint())
+        else:
+            hint.place_forget()
+
+    def hide_hint():
+        global hint_visible
         hint.place_forget()
+        hint_visible = False
 
     def show_hint(event):
+        global hint_visible
         widget = event.widget
         x = widget.winfo_rootx() - 500 # panel1.winfo_rootx()
         y = widget.winfo_rooty() - panel1.winfo_rooty() + widget.winfo_height()
 
         hint.place(x=x, y=y)
+        hint_visible = True
 
 
     root.protocol("WM_DELETE_WINDOW", exit_app)
