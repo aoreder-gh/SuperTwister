@@ -20,7 +20,7 @@ def cpu_temp():
                 if output.startswith('temp=') and output.endswith("'C"):
                     temp_vcg = float(output[5:-2])
                     temp = max(temp, temp_vcg)
-                    state.cpu_temp = temp
+                    state.cpu_temp = int(temp)
                     dprint(f"CPU-Temperatur: {temp} °C")
         except subprocess.TimeoutExpired:
             state.cpu_temp = "N/A timeout"

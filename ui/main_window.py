@@ -280,9 +280,10 @@ def create_main_window():
     def toggle_twist():
         state.twist_mode = True if state.twist_mode == False else False
         if state.twist_mode:
+            state.toggle_rpm = state.target_rpm
             state.target_rpm = TWIST_RPM
         else:
-            state.target_rpm = START_RPM
+            state.target_rpm = state.toggle_rpm
 
     def toggle_calibration():
         state.machine_state = SAFE
@@ -487,7 +488,7 @@ def create_main_window():
                           command=on_start)
     btn_start.grid(row=2, column=0, columnspan=3, sticky="nsew", padx=PAD_X, pady=PAD_Y)
 
-    btn_center = tk.Button(panel1, font=LBL_FONT, bg="blue", fg="white", activebackground="lightblue", activeforeground="white", borderwidth=5, relief="raised",
+    btn_center = tk.Button(panel1, font=LBL_FONT, width=10, bg="blue", fg="white", activebackground="lightblue", activeforeground="white", borderwidth=5, relief="raised",
                            command=start_centering)
     btn_center.grid(row=2, column=3, columnspan=1, sticky="ns", padx=PAD_X, pady=PAD_Y)
 
@@ -595,8 +596,13 @@ def create_main_window():
                 f"({state.user_role})",
             bg="green" if is_running else "red" if is_safe else "medium purple"
         )
-        lock_lbl.config(text=t["locked"] if state.motor_locked else t["unlocked"],
-                        bg="dark orange" if state.motor_locked else "burlywood")
+        if state.motor_locked:
+            if state.machine_state == RUNNING:
+                lock_lbl.config(text=t["running"], bg="dark orange")
+            else:
+                lock_lbl.config(text=t["locked"], bg="dark orange")
+        else:
+            lock_lbl.config(text=t["unlocked"], bg="burlywood")
         btn_start.config(text=t["start"])
         btn_center.config(text=t["center"])
         btn_stop.config(text=t["stop"])
