@@ -18,12 +18,25 @@ from utils.debug import dprint
 i2c = busio.I2C(board.SCL, board.SDA)
 
 # ADS1115 initialize
-ads = ADS.ADS1115(i2c)
+try:
+    ads = ADS.ADS1115(i2c)
+    dprint("ADS1115 gefunden ✅")
+
+except ValueError as e:
+    dprint("Fehler beim Initialisieren des ADS1115 ❌")
+    dprint(e)
+    ads = None  # Wichtig, damit dein Programm weiterlaufen kann
 
 # Correct channel access to connector 1 (of 4)
-chan = AnalogIn(ads, 0)
+chan = None
+if ads is not None:
+    chan = AnalogIn(ads, 0)
     
 def update_throttle():
+    if chan is None:
+        # no ADC → no Update
+        dprint("ADC not available – throttle skipped")
+        return
     v = chan.voltage
 
     # Clamp with calibrated values

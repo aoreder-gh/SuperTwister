@@ -13,11 +13,12 @@ from utils.debug import dprint
 
 def setup_safety():
     hpi.pi.set_mode(ESTOP_PIN, 0)
+    hpi.pi.write(ESTOP_PIN, 1)
 
 def poll():
     estop = hpi.pi.read(ESTOP_PIN)
-    if estop == 0:  # Taster gedrückt
-        time.sleep(0.01)  # 10 ms entprellen
+    if estop == 0:  # button pressed
+        #time.sleep(0.01)  # 10 ms entprellen
         if hpi.pi.read(ESTOP_PIN) == 0:
             state.safety_estop = True
             dprint("Poll read EMERGENCY-Button -Stop- 0")

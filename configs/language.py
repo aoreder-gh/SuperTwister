@@ -27,7 +27,7 @@ texts = {
         "config": "Konfig",
         "rpm": "U/min",
         "state": "Status",
-        "counter": "Windng.",
+        "counter": "Wdg.",
         "center": "Zentrieren",
         "start": "Starten",
         "stop": "Stopp",

@@ -487,7 +487,7 @@ def create_main_window():
                           command=on_start)
     btn_start.grid(row=2, column=0, columnspan=3, sticky="nsew", padx=PAD_X, pady=PAD_Y)
 
-    btn_center = tk.Button(panel1, font=LBL_FONT, bg="blue", fg="white", activebackground="lightblue", activeforeground="white", borderwidth=5, relief="raised",
+    btn_center = tk.Button(panel1, font=LBL_FONT, bg="blue", width=10, fg="white", activebackground="lightblue", activeforeground="white", borderwidth=5, relief="raised",
                            command=start_centering)
     btn_center.grid(row=2, column=3, columnspan=1, sticky="ns", padx=PAD_X, pady=PAD_Y)
 

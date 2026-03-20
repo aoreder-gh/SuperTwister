@@ -46,9 +46,9 @@ STEP_PIN = 12
 DIR_A = 16
 DIR_B = 26
 ENA_AB = 19
-REED_PIN = 21
-ESTOP_PIN = 20
-RESET_PIN = 17
+REED_PIN = 20
+ESTOP_PIN = 27
+RESET_PIN = 7
 
 # changeable vars
 
