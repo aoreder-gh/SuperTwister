@@ -28,6 +28,7 @@ twist_mode = False
 loaded_rpm = 600
 target_rpm = 600
 actual_rpm = 0.0
+toggle_rpm = 0.0
 loaded_turns = 0
 limit_reached = False
 remaining_turns = 0

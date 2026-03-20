@@ -280,9 +280,10 @@ def create_main_window():
     def toggle_twist():
         state.twist_mode = True if state.twist_mode == False else False
         if state.twist_mode:
+            state.toggle_rpm = state.target_rpm
             state.target_rpm = TWIST_RPM
         else:
-            state.target_rpm = START_RPM
+            state.target_rpm = state.toggle_rpm
 
     def toggle_calibration():
         state.machine_state = SAFE
@@ -595,8 +596,13 @@ def create_main_window():
                 f"({state.user_role})",
             bg="green" if is_running else "red" if is_safe else "medium purple"
         )
-        lock_lbl.config(text=t["locked"] if state.motor_locked else t["unlocked"],
-                        bg="dark orange" if state.motor_locked else "burlywood")
+        if state.motor_locked:
+            if state.machine_state == RUNNING:
+                lock_lbl.config(text=t["running"], bg="dark orange")
+            else:
+                lock_lbl.config(text=t["locked"], bg="dark orange")
+        else:
+            lock_lbl.config(text=t["unlocked"], bg="burlywood")
         btn_start.config(text=t["start"])
         btn_center.config(text=t["center"])
         btn_stop.config(text=t["stop"])
