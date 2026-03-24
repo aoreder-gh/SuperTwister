@@ -25,10 +25,15 @@ ALERT_CPU_TEMP = 65.0
 TWIST_RPM = 150
 # adjustments
 SVC_FONT = ("Arial", 14)
+SVC_FONT_BOLD = ("Arial", 14, "bold")
 LBL_FONT = ("Arial", 16)
+PROGRESS_FONT = ("Arial", 18, "bold")
+TARGET_FONT = ("Arial", 20)
+BUTTON_FONT = ("Arial", 24)
+BUTTON_FONT_BOLD = ("Arial", 24, "bold")
 BIG_FONT = ("Arial", 28, "bold")
 BIG_BIG_FONT = ("Arial", 40, "bold")
-BIG_FONT_MINUS = ("Arial", 40, "bold")
+BIG_FONT_MINUS = ("Arial", 52, "bold")
 IMG_PATH = "img/"
 PAD_X = 10
 PAD_Y = 10

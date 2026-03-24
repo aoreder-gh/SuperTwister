@@ -20,6 +20,7 @@ class BaseDialog(tk.Toplevel):
 
         # Modal behaviour
         self.transient(root)
+        self.wait_visibility()
         self.grab_set()
 
         # Center on parent

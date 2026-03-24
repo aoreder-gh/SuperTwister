@@ -1,9 +1,9 @@
 {
-    "target_rpm": 200,
-    "direction": 0,
+    "target_rpm": 400,
+    "direction": false,
     "remaining_turns": 0,
     "loaded_turns": 0,
-    "completed_turns": 107.4567333039862,
+    "completed_turns": 0,
     "language": "DE",
     "twist_mode": false,
     "throttle_min_v": 0.82875,

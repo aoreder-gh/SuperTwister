@@ -20,7 +20,7 @@ from hardware.reset import setup_reset
 from logic.config_io import load_config, save_config
 from logic.controller import setup_motor, run_motor_loop
 from logic.watchdog import start_watchdog
-from ui.main_window import create_main_window
+from ui.main_windowb import create_main_window
 from utils.debug import dprint
 
 # error logging redirect to a file. For later use...
