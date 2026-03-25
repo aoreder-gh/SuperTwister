@@ -181,16 +181,17 @@ def create_main_window():
         100% = Rot
         """
         percent = max(0, min(100, percent))
-        if percent <= 50:
-            # Gruen -> Gelb
-            r = int(255 * (percent / 50))
-            g = 255
-            b = 100 
-        else:
-            # Gelb -> Rot
-            r = 255
-            g = int(255 * (1 - (percent - 50) / 50))
-            b = 100
+        t = percent / 100
+
+        # Start: #2e7d32
+        r1, g1, b1 = 46, 125, 50
+
+        # Ende: #FA7000
+        r2, g2, b2 = 250, 112, 0
+
+        r = int(r1 + (r2 - r1) * t)
+        g = int(g1 + (g2 - g1) * t)
+        b = int(b1 + (b2 - b1) * t)
 
         return f"#{r:02x}{g:02x}{b:02x}"
 
@@ -445,6 +446,7 @@ def create_main_window():
     icon_ok       = load_icon("ok", "green")
     icon_nok      = load_icon("nok", "rot")
     icon_unlock   = load_icon("unlock", "white", size=(40,40))
+    icon_lock     = load_icon("lock", "gray", size=(40,40))
 
     root.protocol("WM_DELETE_WINDOW", exit_app)
     
@@ -517,7 +519,8 @@ def create_main_window():
     frame_conf.grid(row=0, column=2, rowspan=2, padx=10, pady=10, sticky="ns")
     frame_conf.grid_propagate(False)
 
-    ctk.CTkLabel(frame_conf, text="Konfiguration", font=LBL_FONT).pack(pady=5)
+    lbl_cfg = ctk.CTkLabel(frame_conf, text="Konfiguration", font=LBL_FONT)
+    lbl_cfg.pack(pady=5)
 
     btn_lcfg = ctk.CTkButton(frame_conf, text="Load", font=BUTTON_FONT, fg_color=FG_COLOR, text_color=TEXT_COLOR, image=icon_load, height=50, width=250)
     btn_lcfg.pack(fill="x", padx=10, pady=5)
@@ -537,18 +540,19 @@ def create_main_window():
     frame_sys.grid(row=2, column=2, rowspan=3, padx=10, pady=10, sticky="ns")
     frame_sys.grid_propagate(False)
 
-    ctk.CTkLabel(frame_sys, text="System", font=LBL_FONT).pack(pady=10)
-
-    btn_lang = ctk.CTkButton(frame_sys, font=BIG_FONT, fg_color=FG_COLOR, text_color=TEXT_COLOR,
-                        image=icon_lang, anchor="w", compound="left", height=50, width=250)
-    btn_lang.pack(fill="x", padx=10, pady=5)
+    lbl_system = ctk.CTkLabel(frame_sys, text="System", font=LBL_FONT)
+    lbl_system.pack(pady=10)
 
     btn_help = ctk.CTkButton(frame_sys, font=BIG_FONT, fg_color=FG_COLOR, text_color=TEXT_COLOR,
                         image=icon_hlp, anchor="w", compound="left", height=50, width=250)
     btn_help.pack(fill="x", padx=10, pady=5)
 
+    btn_lang = ctk.CTkButton(frame_sys, font=BIG_FONT, fg_color=FG_COLOR, text_color=TEXT_COLOR,
+                        image=icon_lang, anchor="w", compound="left", height=50, width=250)
+    btn_lang.pack(fill="x", padx=10, pady=5)
+
     btn_service = ctk.CTkButton(frame_sys, font=BIG_FONT, fg_color=FG_COLOR, text_color=TEXT_COLOR,
-                        image=icon_unlock, anchor="w", compound="left", height=50, width=250)
+                        image=icon_lock, anchor="w", compound="left", height=50, width=250)
     btn_service.pack(fill="x", padx=10, pady=5)
 
     # ============================================================
@@ -849,17 +853,19 @@ def create_main_window():
         lbl_lang.configure(text=f"{t['language']}", image=icon_de if state.language == "DE" else icon_en)
         btn_lcfg.configure(text=f"Load {t['config']}")
         btn_scfg.configure(text=f"Save {t['config']}")
+        lbl_cfg.configure(text=t["configuration"])
         hint.configure(text=f"{t['loaded_recipe']}:\n" f"{state.current_profile}", font=LBL_FONT)
+        lbl_system.configure(text=t["debug"])
         btn_wzd.configure(text=t["wizard"])
         btn_help.configure(text= f"{t['help']}")
         btn_service.configure(text=t["service"], fg_color=YELLOW if state.user_role == SERVICE or state.user_role == CALIBRATION or state.user_role == STATISTIC else FG_COLOR)
+        btn_service.configure(image=icon_unlock if state.user_role == SERVICE or state.user_role == CALIBRATION or state.user_role == STATISTIC else icon_lock)
         if state.user_role == CALIBRATION:
             btn_config.configure(text=t["calibration"], fg_color=YELLOW if state.user_role == CALIBRATION else FG_COLOR, command=toggle_calibration)
         elif state.user_role == STATISTIC:
             btn_config.configure(text=t["statistic"], fg_color=YELLOW if state.user_role == STATISTIC else FG_COLOR, command=lambda: open_modal(StatisticDialog))
         else:
-            btn_config.configure(text=t["configuration"], fg_color=YELLOW if state.user_role == SERVICE else FG_COLOR, command=lambda: open_modal(ConfigEditor))
-            
+            btn_config.configure(text=t["adjustment"], fg_color=YELLOW if state.user_role == SERVICE else FG_COLOR, command=lambda: open_modal(ConfigEditor))
         btn_ri.configure(fg_color = GREEN if state.direction else GREY)
         btn_le.configure(fg_color= GREEN if state.direction == False else GREY)
         
